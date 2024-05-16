@@ -1,0 +1,29 @@
+.contenedor-perfil{
+    border: 1px solid black;
+    background-color: #bcd7bc;
+    border-radius: 15px;
+    border-color: #59ac59;
+    display: flex;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.imagen-perfil{
+    border-radius: 50%;
+    padding: 10px;
+    height:150px;
+    width:150;
+    justify-self: center;
+    align-self: center;
+}
+
+.titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-self: center;
+    align-self: center;
+}
+
+.p{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
