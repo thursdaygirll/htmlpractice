@@ -1,33 +1,95 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles/main.css"/>
-        <title class="titulo">Practicas HMTL</title> 
-    </head>
-    <body>
-        <div style="text-align: center";>
-            <h1 style="background-color:#ffa333; color:white;">Susana Gallegos</h1>
-            <hr>
-        </div>
-        
-        <ol>
-            <li>Blog personal</li>
-            <li>Letterboxd 2.0</li>
-            <li>Espacio para review de musica como last.fm</li>
-        </ol>
-  
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Susana's Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Susana's Portfolio</h1>
+    </header>
 
-        <div class="contenedor-perfil">
-                <h1 style="text-align: center;">Sobre mi</h1>
-                <img src="https://i.pinimg.com/736x/88/44/c8/8844c859b4b1a5b3adcdd9e766276749.jpg" class="imagen-perfil" >
-                <p >Je m'appelle Susana, mon age est 19 ans, je suis une etudiante à
-                    l'Universite Technologique à Chihuahua domain Developpement de Logiciels
-                    je suis Mexicaine, mes loisirs sont regarder des films et apprendre de nouvelles 
-                    langues, j'aime les films et TV series mais je prefere le musique.
-                </p>
+    <div class="container">
+        <main>
+            <!-- Presentation Section -->
+            <section id="sobre-mi" class="presentation">
+                <div class="presentation-content">
+                    <img src="https://i.pinimg.com/564x/bc/04/74/bc0474cb49ce8b3fa07a5bc832612e54.jpg" alt="Imagen de perfil" class="profile-image">
+                    <div class="presentation-text">
+                        <h2>Sobre Mi</h2>
+                        <p>Je m'appelle Susana, j'ai 19 ans, je suis étudiante à l'Université Technologique à Chihuahua dans le domaine 
+                        du Développement de Logiciels. Je suis Mexicaine, mes loisirs sont regarder des films et apprendre de nouvelles langues,
+                        j'aime les films et les séries TV mais je préfère la musique. 🤠</p>
+                    </div>
+                </div>
+            </section>
 
-        </div>
+            <!-- Projects Section -->
+            <section id="proyectos" class="projects">
+                <h2>Mis Proyectos</h2>
+                <div class="project">
+                    <h3>Blog</h3>
+                    <p>I'd like to do a blog similar to how people used to in the early 2010's</p>
+                </div>
+                <div class="project">
+                    <h3>Letterboxd 2.0</h3>
+                    <p>Letterboxd kind of inspired apps, allowing people to log activities in that format</p>
+                </div>
+                <div class="project">
+                    <h3>Review de música</h3>
+                    <p>Similar to pitchfork</p>
+                </div>
+            </section>
+
+            <section id="albums" class="gallery">
+                <h2>Albums of the week 🎧</h2>
+                <div class="album">
+                    <a href="https://open.spotify.com/album/1HrMmB5useeZ0F5lHrMvl0?si=RhzDcZMQSQmMWM8RzqKJnA">
+                        <img src="https://m.media-amazon.com/images/I/71kEucXSNML._UF1000,1000_QL80_.jpg" alt="Amnesiac">
+                    </a>
+                    <h3>Amnesiac<br>Radiohead</h3>
+                </div>
+                <div class="album">
+                    <a href="https://open.spotify.com/album/7pBPB9vwqCMLKNmUCK4k62?si=liqLhE45Rj-3yHRC5ce_dQ">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Treasure_cover.jpg" alt="Treasure">
+                    </a>
+                    <h3>Treasure<br>Cocteau Twins</h3>
+                </div>
+                <div class="album">
+                    <a href="https://open.spotify.com/album/7sScYIMy44GyOll7TpWcak?si=_fql6cyySNqqDi7h-l-E9A">
+                        <img src="https://m.media-amazon.com/images/I/7147zaKuNvL._AC_SY355_.jpg" alt="Vespertine">
+                    </a>
+                    <h3>Vespertine <br>Björk</h3>
+                </div>
+                <div class="album">
+                    <a href="https://open.spotify.com/album/1Yuj8npDKTJ1OhZu1WpJTi?si=UDEOzLYbTxaA9KQsVYBXmA">
+                        <img src="https://m.media-amazon.com/images/I/81g0YcT68pL._AC_UF1000,1000_QL80_.jpg" alt="Dirt">
+                    </a>
+                    <h3>Dirt <br>Alice in Chains</h3>
+                </div>
+            </section>
+            
+            
+
+
+            </section>
+        </main>
         
-       
-    </body>
+        <aside>
+            <div class="additional-info">
+                <h2>More about me</h2>
+                <p>Here's some of my socials and my latest playlist 🐁</p>
+                <ul>
+                    <li><a href="https://open.spotify.com/user/mugsvfjeqeeu4nmcmjzxi9bvj?si=def9fba343a840c9">Spotify</a></li>
+                    <li><a href="https://boxd.it/1zxtb">Letterboxd</a></li>
+                    <li><a href="https://pin.it/71as6mSof">Pinterest</a></li>
+                </ul>
+            </div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/35UJLpClj5EDrhpNIi4DFg?utm_source=generator" width="285" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </aside>
+    </div>
+</body>
 </html>
